@@ -5,6 +5,7 @@ import Job from "./Job"
 
 const FeaturedJobs = () => {
     const [job, setjob] = useState([])
+    //fokinni way for show all
     const [datalength, setdatalength] = useState(4)
     useEffect(() => {
         fetch('jobs.json')
