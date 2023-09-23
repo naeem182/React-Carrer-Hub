@@ -20,8 +20,8 @@ import { BsCurrencyDollar } from "react-icons/bs";
 const Job = ({ job }) => {
     const { logo, job_title, company_name, remote_or_onsite, location, salary, job_type } = job
     return (
-        <div className="card card-compact  bg-base-100 shadow-xl">
-            <figure><img src={logo} alt="logo" /></figure>
+        <div className=" p-4 card card-compact  bg-base-100 shadow-xl">
+            <figure><img className=" p-4" src={logo} alt="logo" /></figure>
             <div className="card-body">
                 <h2 className="card-title">{job_title}</h2>
                 <p>{company_name}</p>
